@@ -1,0 +1,28 @@
+# Environment and local secrets
+.env
+.env.*
+.aws/
+secrets/
+credentials.json
+*-secrets.json
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Dependencies and local environments
+node_modules/
+vendor/
+.venv/
+venv/
+
+# Local Site tooling and temporary files
+.sites-checkout/
+.sites-checkout-*/
+.cache/
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
